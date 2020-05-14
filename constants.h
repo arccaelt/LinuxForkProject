@@ -1,0 +1,15 @@
+#ifndef CONSTANTS_h
+#define CONSTANTS_h
+
+#define PASSWD_PATH "/etc/passwd"
+#define LINE_BUFFER_SIZE 2048
+#define LINE_USERNAME_BUFFER_SIZE 2048
+#define LINE_PROCESS_BUFFER_SIZE 1024
+#define COMMAND_BUFFER_SIZE 100
+#define LINE_SEPARATOR ":"
+
+#define ACTIVE_USERS_COMMAND "who -q"
+#define PROCESS_DUMP_FILENAME "dump.txt"
+#define PROCESS_DUMP_COMMAND_PREFIX "ps -u "
+
+#endif
